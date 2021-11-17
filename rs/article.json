@@ -1,0 +1,143 @@
+{
+    "o:label": "article",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/ontology\/bibo\/",
+            "vocabulary_label": "Bibliographic Ontology",
+            "local_name": "abstract",
+            "label": "abstract"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/spar\/fabio",
+            "vocabulary_label": "index",
+            "local_name": "hasDepositDate",
+            "label": "has deposit date"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/spar\/fabio",
+            "vocabulary_label": "index",
+            "local_name": "hasElectronicArticleIdentifier",
+            "label": "has electronic article identifier"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/spar\/fabio",
+            "vocabulary_label": "index",
+            "local_name": "hasSubjectTerm",
+            "label": "has subject term"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/spar\/fabio",
+            "vocabulary_label": "index",
+            "local_name": "dateLastUpdated",
+            "label": "date last updated"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/spar\/fabio",
+            "vocabulary_label": "index",
+            "local_name": "hasCopyrightYear",
+            "label": "has copyright year"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/spar\/fabio",
+            "vocabulary_label": "index",
+            "local_name": "hasCorrectionDate",
+            "label": "has correction date"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/spar\/fabio",
+            "vocabulary_label": "index",
+            "local_name": "hasDiscipline",
+            "label": "has discipline"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/spar\/fabio",
+            "vocabulary_label": "index",
+            "local_name": "hasPlaceOfPublication",
+            "label": "has place of publication"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/xmlns.com\/foaf\/0.1\/",
+            "vocabulary_label": "Friend of a Friend",
+            "local_name": "account",
+            "label": "account"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/spar\/fabio",
+            "vocabulary_label": "index",
+            "local_name": "hasURL",
+            "label": "has URL"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "http:\/\/purl.org\/spar\/fabio",
+        "vocabulary_label": "index",
+        "local_name": "Article",
+        "label": "article"
+    }
+}

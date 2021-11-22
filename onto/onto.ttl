@@ -6,9 +6,9 @@
 @prefix o: <http://omeka.org/s/vocabs/o#> .
 @prefix ma: <http://www.w3.org/ns/ma-ont#>.
 @prefix mo: <http://purl.org/ontology/mo#>.
-@prefix jdc: <https://jardindesconnaissances.univ-paris8.fr/onto/jdc#> .
+@prefix jdc: <https://yanhip.github/THYP_21-22/onto/onto#> .
 
-<https://jardindesconnaissances.univ-paris8.fr/onto/jdc#> a owl:Ontology ;
+<https://yanhip.github/THYP_21-22/onto/onto#> a owl:Ontology ;
     dcterms:title "Jardin des connaissances" .
 
 jdc:SemanticPosition a rdfs:Class ;

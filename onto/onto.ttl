@@ -6,147 +6,53 @@
 @prefix o: <http://omeka.org/s/vocabs/o#> .
 @prefix ma: <http://www.w3.org/ns/ma-ont#>.
 @prefix mo: <http://purl.org/ontology/mo#>.
-@prefix jdc: <https://yanhip.github/THYP_21-22/onto/onto#> .
+@prefix index: <https://yanhip.github/THYP_21-22/onto/onto.ttl#> .
 
-<https://yanhip.github/THYP_21-22/onto/onto#> a owl:Ontology ;
-    dcterms:title "Jardin des connaissances" .
+<https://yanhip.github/THYP_21-22/onto/onto.ttl#> a owl:Ontology ;
+    dcterms:title "Indexation de documents" .
 
-jdc:SemanticPosition a rdfs:Class ;
-    rdfs:label "SemanticPosition" ;
+index:Indexation a rdfs:Class ;
+    rdfs:label "indexeDoc" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:Crible a rdfs:Class ;
+index:Document a rdfs:Class ;
     rdfs:label "Crible" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:CriblePosition a rdfs:Class ;
-    rdfs:label "CriblePosition" ;
+index:hasMot a rdf:Property ;
+    rdfs:label "a des mots" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:CribleCarto a rdfs:Class ;
-    rdfs:label "Cartographie d'un crible" ;
+index:hasPhrase a rdf:Property ;
+    rdfs:label "a des mots" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:Actant a rdfs:Class ;
-    rdfs:label "Actant" ;
+index:hasAuthor a rdf:Property ;
+    rdfs:label "a un auteur" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:Doc a rdfs:Class ;
-    rdfs:label "Doc" ;
+index:hasDateParution a rdf:Property ;
+    rdfs:label "a une date de parution" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:Rapport a rdfs:Class ;
-    rdfs:label "Rapport" ;
+index:hasMotClés a rdf:Property ;
+    rdfs:label "a une date de parution" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:Concept a rdfs:Class ;
-    rdfs:label "Concept" ;
+index:hasTitre a rdf:Property ;
+    rdfs:label "a une date de parution" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:Transcription a rdfs:Class ;
-    rdfs:label "Transcription" ;
+index:hasPage a rdf:Property ;
+    rdfs:label "a une date de parution" ;
     rdfs:domain o:Resource ;
-    owl:sameAs mo:Transcription;
-    vs:term_status "experimental" .
-
-jdc:x a rdf:Property ;
-    rdfs:label "x" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-jdc:y a rdf:Property ;
-    rdfs:label "y" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-jdc:xRatingValue a rdf:Property ;
-    rdfs:label "xRatingValue" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-jdc:yRatingValue a rdf:Property ;
-    rdfs:label "yRatingValue" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-jdc:degradName a rdf:Property ;
-    rdfs:label "degradName" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-jdc:degradColors a rdf:Property ;
-    rdfs:label "degradColors" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-jdc:creationDate a rdf:Property ;
-    rdfs:label "creationDate" ;
-    rdfs:domain o:Resource .
-
-jdc:hasActant a rdf:Property ;
-    rdfs:label "a comme actant" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-jdc:hasDoc a rdf:Property ;
-    rdfs:label "a comme document" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-jdc:hasConcept a rdf:Property ;
-    rdfs:label "a comme concept" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-jdc:hasRapport a rdf:Property ;
-    rdfs:label "a comme rapport" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-jdc:hasCrible a rdf:Property ;
-    rdfs:label "a comme crible" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-jdc:cribleLabel a rdf:Property ;
-    rdfs:label "cribleLabel" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-jdc:cribleId a rdf:Property ;
-    rdfs:label "cribleId" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-jdc:cribleRatingValue a rdf:Property ;
-    rdfs:label "cribleRatingValue" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-jdc:distanceCenter a rdf:Property ;
-    rdfs:label "distance du centre" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-jdc:distanceConcept a rdf:Property ;
-    rdfs:label "distance du concept" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-jdc:ordreCrible a rdf:Property ;
-    rdfs:label "Ordre dans le crible" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-jdc:hasCribleCarto a rdf:Property ;
-    rdfs:label "a comme cartographie" ;
-    rdfs:domain o:Resource ;
+    owl:sameAs fabio owl:hasPageCount
     vs:term_status "experimental" .

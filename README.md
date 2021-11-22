@@ -1,1 +1,1 @@
-
+http://omeka-s/api/items/1

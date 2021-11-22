@@ -27,7 +27,7 @@ index:hasMot a rdf:Property ;
     vs:term_status "experimental" .
 
 index:hasPhrase a rdf:Property ;
-    rdfs:label "a des mots" ;
+    rdfs:label "a des phrases" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
@@ -41,7 +41,7 @@ index:hasDateParution a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-index:hasMotClés a rdf:Property ;
+index:hasMotCles a rdf:Property ;
     rdfs:label "a une date de parution" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
@@ -52,7 +52,7 @@ index:hasTitre a rdf:Property ;
     vs:term_status "experimental" .
 
 index:hasPage a rdf:Property ;
-    rdfs:label "a une date de parution" ;
+    rdfs:label "a des pages" ;
     rdfs:domain o:Resource ;
     owl:sameAs fabio owl:hasPageCount
     vs:term_status "experimental" .

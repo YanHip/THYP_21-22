@@ -6,7 +6,7 @@ Lorsqu'une recherhcr est effectuée, le site propose une liste de tous les fichi
 Un fichier indexé peut être supprimé par l'administrateur.
 Un fichier pourra être indexé de manière publicque ou privée.
 Pour indexer un fichier l'utilisateur doit être connecté et donc avoir créé un compte.
-
+<!-- 
 
 ## Titre 2
 **Texte en gras**
@@ -22,4 +22,4 @@ exemple tableau
 |    A    |    B    |
 |    C    |    D    |
 
-[^1]: Vous trouverez ici le texte de la note de bas de page.
+[^1]: Vous trouverez ici le texte de la note de bas de page. -->

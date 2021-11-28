@@ -1,0 +1,43 @@
+.my_cols {
+  margin: 1%;
+}
+.my_row {
+  flex-direction: row;
+  margin-top: 1%;
+  margin-left: 15px!important;
+  padding: 3px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.profil_img {
+  width: auto;
+  padding: 1%;
+}
+.profil_img img {
+  max-width: 100%;
+  height: auto;
+}
+.card_footer {
+  font-size: small;
+  color: grey;
+}
+
+#my_graph {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  height: 15%;
+}
+
+.aforitem {
+  color: #007bff!important;
+  text-decoration: none!important;
+  background-color: transparent!important;
+  cursor: pointer!important;
+  text-decoration: underline!important;
+}
+*, ::after, ::before {
+  box-sizing: border-box!important;
+}

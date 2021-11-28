@@ -1,0 +1,33 @@
+{
+	"@context": "http://omeka-s/api-context",
+	"@id": "http://omeka-s/api/resource_templates/2",
+	"@type": "o:ResourceTemplate",
+	"o:id": 2,
+	"o:label": "documents",
+	"o:owner": { "@id": "http://omeka-s/api/users/1", "o:id": 1 },
+	"o:resource_class": { "@id": "http://omeka-s/api/resource_classes/49", "o:id": 49 },
+	"o:title_property": null,
+	"o:description_property": null,
+	"o:resource_template_property": [
+		{ "o:property": { "@id": "http://omeka-s/api/properties/1", "o:id": 1 }, "o:alternate_label": null, "o:alternate_comment": null, "o:data_type": [], "o:is_required": false, "o:is_private": false },
+		{ "o:property": { "@id": "http://omeka-s/api/properties/3", "o:id": 3 }, "o:alternate_label": null, "o:alternate_comment": null, "o:data_type": [], "o:is_required": false, "o:is_private": false },
+		{
+			"o:property": { "@id": "http://omeka-s/api/properties/12", "o:id": 12 },
+			"o:alternate_label": null,
+			"o:alternate_comment": null,
+			"o:data_type": [],
+			"o:is_required": false,
+			"o:is_private": false
+		},
+		{
+			"o:property": { "@id": "http://omeka-s/api/properties/19", "o:id": 19 },
+			"o:alternate_label": null,
+			"o:alternate_comment": null,
+			"o:data_type": [],
+			"o:is_required": false,
+			"o:is_private": false
+		},
+		{ "o:property": { "@id": "http://omeka-s/api/properties/4", "o:id": 4 }, "o:alternate_label": null, "o:alternate_comment": null, "o:data_type": [], "o:is_required": false, "o:is_private": false },
+		{ "o:property": { "@id": "http://omeka-s/api/properties/6", "o:id": 6 }, "o:alternate_label": null, "o:alternate_comment": null, "o:data_type": [], "o:is_required": false, "o:is_private": false }
+	]
+}

@@ -1,7 +1,7 @@
 var global_var = {
 	//513110937
 	//1340290303
-	url: "https://yanhip.github.io/omk/data/resource_templates.json",
+	url: "http://omeka-s/api/resource_templates",
 };
 main(global_var.url);
 

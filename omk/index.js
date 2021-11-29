@@ -60,7 +60,7 @@ async function traitement_liste(data) {
 					let row;
 
 					if (prop["o:property"] != null && prop["o:property"]["@id"] != null) {
-						let prop_info = await d3.json(prop["o:property"]["@id"]);
+						let prop_info = await d3.json("https://yanhip.github.io/THYP_21-22/omk/data/resource_templates_"+prop["o:property"]["o:id"]+".json");
 						console.log();
 						row = document.createElement("div");
 						row.classList.add("row");

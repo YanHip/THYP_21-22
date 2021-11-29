@@ -43,7 +43,7 @@ async function traitement_liste(data) {
 					row.id = "aforitem" + i;
 					row.innerHTML = "<div class='aforitem' >" + r_template["o:label"] + "</div>";
 					row.addEventListener("click", function (e) {
-						main(r_template["@id"]);
+						main("https://yanhip.github.io/THYP_21-22/omk/data/resource_templates_"+r_template["o:id"]+".json");
 					});
 				}
 				// console.log(table_keys);
